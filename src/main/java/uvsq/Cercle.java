@@ -21,4 +21,13 @@ public class Cercle implements Forme {
 
         this.coord = coord;
     }
+
+    public int getRayon() {
+        return rayon;
+    }
+
+    public String getCoord() {
+        return coord;
+    }
+
 }

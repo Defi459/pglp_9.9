@@ -28,4 +28,8 @@ public class Rectangle implements Forme {
 
         return name+" Rectangle(Centre="+coord+",Largeur="+valueOf(largeur)+",Longueur="+valueOf(longueur)+")";
     }
+
+    public String getCoord() {
+        return coord;
+    }
 }

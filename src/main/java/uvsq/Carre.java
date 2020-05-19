@@ -26,4 +26,8 @@ public class Carre implements Forme {
 
         return name+" Carre(Centre="+coord+",Cote="+valueOf(cote)+")";
     }
+
+    public String getCoord() {
+        return coord;
+    }
 }

@@ -25,4 +25,12 @@ public class Triangle implements Forme {
         return name+" Triangle(Centre="+coord+",Hypothenuse="+valueOf(this.hypothenuse)+")";
     }
 
+    public String getCoord() {
+        return coord;
+    }
+
+    public int getHypothenuse() {
+        return hypothenuse;
+    }
 }
+
