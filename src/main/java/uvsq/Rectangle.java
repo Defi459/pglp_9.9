@@ -32,4 +32,16 @@ public class Rectangle implements Forme {
     public String getCoord() {
         return coord;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getLargeur() {
+        return largeur;
+    }
+
+    public int getLongueur(){
+        return longueur;
+    }
 }

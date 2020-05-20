@@ -30,4 +30,12 @@ public class Carre implements Forme {
     public String getCoord() {
         return coord;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getCote() {
+        return cote;
+    }
 }

@@ -30,4 +30,7 @@ public class Cercle implements Forme {
         return coord;
     }
 
+    public String getName() {
+        return name;
+    }
 }

@@ -32,5 +32,9 @@ public class Triangle implements Forme {
     public int getHypothenuse() {
         return hypothenuse;
     }
+
+    public String getName() {
+        return name;
+    }
 }
 

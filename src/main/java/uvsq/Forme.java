@@ -6,4 +6,5 @@ public interface Forme {
 
     abstract void move(String coord);
 
+
 }
