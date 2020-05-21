@@ -11,7 +11,7 @@ public class DessinDAO extends DAO<Dessin> {
 
         this.connect();
 
-        try (PreparedStatement dessinStatement = this.connect.prepareStatement("INSERT INTO Dessin(name, type, namef, coordf, cote, longueur) values(?, ?, ?, ?, ?, ?)")) {
+        try (PreparedStatement dessinStatement = this.connect.prepareStatement("INSERT INTO Dessin(name, type, namef, coordf, value1, value2) values(?, ?, ?, ?, ?, ?)")) {
             dessinStatement.setString(1, obj.getName());
 
             for (Forme f : obj.getChildforms()){

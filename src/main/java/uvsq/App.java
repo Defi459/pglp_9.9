@@ -8,6 +8,11 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+
+        DrawingApp app = new DrawingApp();
+        while(true){
+            app.run();
+        }
+
     }
 }

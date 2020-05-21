@@ -57,7 +57,7 @@ public class AppTest
     public void CompositeTest(){
         Carre c1 = new Carre("c1","(10,10)",4);
         Triangle t1 = new Triangle("t1","(5,5)",1);
-        Dessin g1 = new Dessin();
+        Dessin g1 = new Dessin("g1");
 
         g1.add(c1);
         g1.add(t1);

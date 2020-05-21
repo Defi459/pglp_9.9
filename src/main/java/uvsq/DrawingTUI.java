@@ -8,8 +8,8 @@ public class DrawingTUI {
 
     public Command nextCommand(){
 
+        this.scan = new Scanner(System.in);
         String token;
-        //this.command.init();
         token= this.scan.nextLine();
 
 
