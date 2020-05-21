@@ -13,7 +13,7 @@ public class DrawingTUI {
         token= this.scan.nextLine();
 
 
-        token.replaceAll(" ","");
+        token=token.replaceAll(" ","");
 
         String tmp = token.substring(0, token.indexOf("("));
 
